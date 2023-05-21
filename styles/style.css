@@ -1,10 +1,13 @@
 @import url("header.css");
 @import url("banner.css");
+@import url("carrossel.css");
+
 :root {
   /* CORES */
   --cor-de-fundo: #ebecee;
   --branco: #ffffff;
   --laranja: #eb9b00;
+  --azul: #002f52;
   --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
 
   /* FONTES */
