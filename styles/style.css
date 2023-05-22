@@ -1,6 +1,9 @@
 @import url("header.css");
 @import url("banner.css");
 @import url("carrossel.css");
+@import url("topics.css");
+@import url("contact.css");
+@import url("footer.css");
 
 :root {
   /* CORES */

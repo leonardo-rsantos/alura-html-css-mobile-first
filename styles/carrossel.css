@@ -129,3 +129,7 @@
   font-weight: var(--fonte-bold);
   text-decoration: none;
 }
+
+.estrelinhas {
+  margin-bottom: 0.5em;
+}

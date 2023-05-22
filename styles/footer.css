@@ -1,0 +1,9 @@
+hr {
+  margin: 0;
+}
+
+.rodape {
+  font-family: var(--fonte);
+  background-color: var(--branco);
+  padding: 1em;
+}
