@@ -2,7 +2,21 @@
   display: none;
 }
 
+#coracao2 {
+  display: none;
+}
+
+.heart {
+  margin-top: 0.3em;
+}
+
 #coracao:checked + .icone > svg {
+  animation: preencher;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+#coracao2:checked + .icone > svg {
   animation: preencher;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;

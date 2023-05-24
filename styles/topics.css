@@ -8,7 +8,7 @@
   font-family: var(--fonte);
   text-align: center;
   background: var(--azul-degrade);
-  padding: 1em 0;
+  padding: 1.5em;
 }
 
 .topicos__titulo {
