@@ -55,6 +55,12 @@
   margin: 0 0.5em;
 }
 
+.descricao {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+}
+
 .descricao__titulo {
   color: var(--laranja);
   font-weight: var(--fonte-bold);
@@ -67,7 +73,7 @@
   margin: 0.5em 0;
 }
 
-.descricao__textp {
+.descricao__texto {
   font-size: 14px;
 }
 
@@ -106,6 +112,12 @@
   margin: 0 0.5em;
 }
 
+.descricao-secundaria {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+}
+
 .descricao-secundaria__titulo {
   color: var(--laranja);
   font-weight: var(--fonte-bold);
@@ -118,7 +130,7 @@
   margin: 0.5em 0;
 }
 
-.descricao-secundaria__textp {
+.descricao-secundaria__texto {
   font-size: 14px;
 }
 
