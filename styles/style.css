@@ -9,13 +9,18 @@
 :root {
   /* CORES */
   --cor-de-fundo: #ebecee;
+  --fundo-rodape: #f9f9f9;
   --branco: #ffffff;
   --laranja: #eb9b00;
   --azul: #002f52;
   --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+  --preto: #000000;
+  --cinza-rodape: #858585;
+  --cor-texto-rodape: #474646;
 
   /* FONTES */
   --fonte: "Poppins", sans-serif;
+  --fonte-secundaria: "Josefin Sans", sans-serif;
   --fonte-light: 300;
   --fonte-regular: 400;
   --fonte-medium: 500;
