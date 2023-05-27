@@ -123,6 +123,20 @@
     display: none;
   }
 
+  .opcoes__botao:checked ~ .opcoes__rotulo {
+    background: var(--azul-degrade);
+    color: var(--branco);
+  }
+
+  .lista-menu__item:hover {
+    background: var(--azul-degrade);
+  }
+
+  .lista-menu__item:hover > .lista-menu__link {
+    -webkit-text-fill-color: var(--branco);
+    text-decoration: none;
+  }
+
   .opcoes__item {
     cursor: pointer;
   }
