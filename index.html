@@ -544,13 +544,12 @@
       </ul>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script>
       const swiper = new Swiper(".swiper", {
         speed: 400,
-        spaceBetween: 1,
-        slidesPerView: 1,
-        hideOnClick: false,
+        spaceBetween: -30,
+        slidesPerView: 3,
         pagination: {
           el: ".swiper-pagination",
           type: "bullets",
@@ -564,12 +563,6 @@
         autoplay: {
           delay: 2500,
         },
-        effect: "coverflow",
-        coverflowEffect: {
-          rotate: 5,
-          slideShadows: false,
-          depth: 600,
-        },
         keyboard: {
           enabled: true,
           onlyInViewport: false,
@@ -578,49 +571,6 @@
           invert: true,
         },
         loop: true,
-        loopedSlides: 3,
-        history: {
-          replaceState: true,
-        },
-
-        breakpoints: {
-          1024: {
-            speed: 400,
-            spaceBetween: -100,
-            slidesPerView: 1,
-            hideOnClick: false,
-            pagination: {
-              el: ".swiper-pagination",
-              type: "bullets",
-              clickable: true,
-            },
-            navigation: {
-              nextEl: ".swiper-button-next",
-              prevEl: ".swiper-button-prev",
-              enabled: true,
-            },
-            autoplay: {
-              delay: 2500,
-            },
-            effect: "coverflow",
-            coverflowEffect: {
-              rotate: 30,
-              slideShadows: false,
-            },
-            keyboard: {
-              enabled: true,
-              onlyInViewport: false,
-            },
-            mousewheel: {
-              invert: true,
-            },
-            loop: true,
-            loopedSlides: 3,
-            history: {
-              replaceState: true,
-            },
-          },
-        },
       });
     </script>
   </body>

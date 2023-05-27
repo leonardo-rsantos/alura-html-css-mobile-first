@@ -165,10 +165,14 @@
 
   .swiper-button-prev,
   .swiper-button-next {
+    background: var(--azul-degrade);
     display: block;
     top: 60%;
-    width: 30%;
-    text-align: center;
+    width: 25px;
+    padding: 15px 2px;
+    height: auto;
+    border-radius: 20px;
+    color: var(--branco);
     z-index: 1;
   }
 
