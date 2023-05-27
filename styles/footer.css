@@ -53,3 +53,13 @@ hr {
     color: var(--cor-texto-rodape);
   }
 }
+
+@media screen and (min-width: 1729px) {
+  .rodape {
+    padding: 3em 0;
+  }
+  .lista-rodape {
+    border-left: 1px solid var(--cinza-rodape);
+    padding-left: 1.5em;
+  }
+}
