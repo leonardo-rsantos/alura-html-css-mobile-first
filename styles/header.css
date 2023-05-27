@@ -43,6 +43,22 @@
 
 .container__botao:checked ~ .lista-menu {
   display: block;
+  cursor: pointer;
+}
+
+.container__botao:checked ~ .container__rotulo > .cabecalho__menu-hamburguer {
+  background-image: url("../images/menu_black.svg");
+  text-align: center;
+  padding: 15px 0;
+}
+
+.container__rotulo {
+  cursor: pointer;
+}
+
+.container__botao:checked ~ .container__rotulo {
+  background: var(--azul-degrade);
+  padding: 0 16px;
 }
 
 .lista-menu__titulo,
@@ -143,6 +159,11 @@
 
   .opcoes__item {
     cursor: pointer;
+    padding: 2em 1em;
+  }
+
+  .opcoes__botao:checked ~ .opcoes__rotulo > .opcoes__item {
+    background: var(--azul-degrade);
   }
 }
 
